@@ -22,3 +22,14 @@ This Platform facilitated the smooth running of the day which included User Regi
 
 ### Footer
 ![6](documentation-images/footer.png)
+
+---
+
+## Collaborators:
+1. Udara-Peiris
+2. Sachith-953
+3. anukah
+4. mhmdumair
+5. Wishva12
+
+**Note:** The old working repository was lost, which is why this new repository was created. 
