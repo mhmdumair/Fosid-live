@@ -1,0 +1,85 @@
+@startuml "VQueue"
+
+interface IUser {
+    -id: ID
+    -name: String
+    -email: String
+    -username: String
+    -password: String
+}
+
+interface IStall {
+    -id: ID
+    -location: String
+}
+
+interface IRoom {
+    -id: ID
+    -name: String
+    -status: RoomStatus
+}
+
+interface IInterview {
+    -id: ID
+    -time: DateTime
+    -status: InterviewStatus
+}
+
+enum InterviewStatus {
+    completed
+    did_not_attend
+    in_progress
+}
+
+enum RoomStatus {
+    vacant
+    closed
+    ongoing
+}
+
+interface IRole {
+    -id: ID
+    -roleName: String
+}
+
+interface ICompany {
+    -id: ID
+    -name: String
+    -email: String
+    -address: String
+    -contact: IContact
+}
+
+interface IContact {
+    -id: ID
+    -phone1: String
+    -phone2: String
+}
+
+class Admin {
+}
+
+class CompanyAdmin {
+    -company: ICompany
+}
+
+class Interviewee {
+}
+
+IUser <|-- Admin
+IUser <|-- CompanyAdmin
+IUser <|-- Interviewee
+
+ICompany "1" -- "1..*" IStall
+IStall "1" -- "1..*" IRoom
+IRoom "1" -- "0..*" IInterview
+IInterview "1" --> "1" Interviewee : has
+ICompany "1" -- "1" CompanyAdmin
+
+IUser - IRole
+IRoom - RoomStatus
+IInterview - InterviewStatus
+ICompany - IContact
+IUser - IContact
+
+@enduml

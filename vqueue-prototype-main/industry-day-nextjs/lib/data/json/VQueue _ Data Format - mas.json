@@ -1,0 +1,682 @@
+[
+  {
+    "studentRegNo": "S/18/366",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "1"
+  },
+  {
+    "studentRegNo": "S/18/342",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "2"
+  },
+  {
+    "studentRegNo": "S/18/399",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "3"
+  },
+  {
+    "studentRegNo": "S/18/358",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "4"
+  },
+  {
+    "studentRegNo": "S/18/831",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "5"
+  },
+  {
+    "studentRegNo": "S/18/839",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "6"
+  },
+  {
+    "studentRegNo": "S/18/838",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "7"
+  },
+  {
+    "studentRegNo": "S/18/846",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "8"
+  },
+  {
+    "studentRegNo": "S/18/335",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "9"
+  },
+  {
+    "studentRegNo": "S/18/422",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "10"
+  },
+  {
+    "studentRegNo": "S/18/448",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "11"
+  },
+  {
+    "studentRegNo": "S/18/456",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "12"
+  },
+  {
+    "studentRegNo": "S/18/459",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "13"
+  },
+  {
+    "studentRegNo": "S/19/362",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "14"
+  },
+  {
+    "studentRegNo": "S/19/369",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "15"
+  },
+  {
+    "studentRegNo": "S/19/387",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "16"
+  },
+  {
+    "studentRegNo": "S/19/401",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "17"
+  },
+  {
+    "studentRegNo": "S/19/831",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "18"
+  },
+  {
+    "studentRegNo": "S/19/819",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "19"
+  },
+  {
+    "studentRegNo": "S/19/849",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "20"
+  },
+  {
+    "studentRegNo": "S/19/807",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "21"
+  },
+  {
+    "studentRegNo": "S/19/837",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "22"
+  },
+  {
+    "studentRegNo": "S/18/511",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "23"
+  },
+  {
+    "studentRegNo": "S/18/572",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "24"
+  },
+  {
+    "studentRegNo": "S/18/422",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "25"
+  },
+  {
+    "studentRegNo": "S/18/824",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "26"
+  },
+  {
+    "studentRegNo": "S/18/844",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "27"
+  },
+  {
+    "studentRegNo": "S/18/807",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "28"
+  },
+  {
+    "studentRegNo": "S/18/809",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "29"
+  },
+  {
+    "studentRegNo": "S/18/363",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "30"
+  },
+  {
+    "studentRegNo": "S/19/012",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "31"
+  },
+  {
+    "studentRegNo": "S/19/312",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "32"
+  },
+  {
+    "studentRegNo": "S/19/563",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "33"
+  },
+  {
+    "studentRegNo": "S/19/827",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "34"
+  },
+  {
+    "studentRegNo": "S/19/828",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "35"
+  },
+  {
+    "studentRegNo": "S/19/862",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "36"
+  },
+  {
+    "studentRegNo": "S/19/852",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "37"
+  },
+  {
+    "studentRegNo": "S/19/845",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "38"
+  },
+  {
+    "studentRegNo": "S/19/942",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "39"
+  },
+  {
+    "studentRegNo": "S/19/953",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "40"
+  },
+  {
+    "studentRegNo": "S/19/955",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "41"
+  },
+  {
+    "studentRegNo": "S/18/002",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "42"
+  },
+  {
+    "studentRegNo": "S/19/102",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "43"
+  },
+  {
+    "studentRegNo": "S/18/343",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "1"
+  },
+  {
+    "studentRegNo": "S/18/593",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "2"
+  },
+  {
+    "studentRegNo": "S/18/424",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "3"
+  },
+  {
+    "studentRegNo": "S/18/826",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "4"
+  },
+  {
+    "studentRegNo": "S/18/821",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "5"
+  },
+  {
+    "studentRegNo": "S/18/813",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "6"
+  },
+  {
+    "studentRegNo": "S/18/825",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "7"
+  },
+  {
+    "studentRegNo": "S/18/335",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "8"
+  },
+  {
+    "studentRegNo": "s/18/441",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "9"
+  },
+  {
+    "studentRegNo": "S/18/562",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "10"
+  },
+  {
+    "studentRegNo": "S/18/462",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "11"
+  },
+  {
+    "studentRegNo": "S/18/486",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "12"
+  },
+  {
+    "studentRegNo": "S/18/495",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "13"
+  },
+  {
+    "studentRegNo": "S/18/507",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "14"
+  },
+  {
+    "studentRegNo": "S/19/405",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "15"
+  },
+  {
+    "studentRegNo": "S/19/431",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "16"
+  },
+  {
+    "studentRegNo": "S/18/492",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "17"
+  },
+  {
+    "studentRegNo": "S/19/831",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "18"
+  },
+  {
+    "studentRegNo": "S/19/842",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "19"
+  },
+  {
+    "studentRegNo": "S/19/805",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "20"
+  },
+  {
+    "studentRegNo": "S/19/861",
+    "session": "M",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS1",
+    "position": "21"
+  },
+  {
+    "studentRegNo": "S/18/376",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "22"
+  },
+  {
+    "studentRegNo": "S/18/442",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "23"
+  },
+  {
+    "studentRegNo": "S/18/557",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "24"
+  },
+  {
+    "studentRegNo": "S/18/811",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "25"
+  },
+  {
+    "studentRegNo": "S/18/816",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "26"
+  },
+  {
+    "studentRegNo": "S/18/SP/851",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "27"
+  },
+  {
+    "studentRegNo": "S/18/845",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "28"
+  },
+  {
+    "studentRegNo": "S/19/317",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "29"
+  },
+  {
+    "studentRegNo": "S/19/368",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "30"
+  },
+  {
+    "studentRegNo": "S/17/421",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "31"
+  },
+  {
+    "studentRegNo": "S/19/475",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "32"
+  },
+  {
+    "studentRegNo": "S/19/452",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "33"
+  },
+  {
+    "studentRegNo": "S/19/858",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "34"
+  },
+  {
+    "studentRegNo": "S/19/868",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "35"
+  },
+  {
+    "studentRegNo": "S/19/847",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "36"
+  },
+  {
+    "studentRegNo": "S/19/805",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "37"
+  },
+  {
+    "studentRegNo": "S/19/965",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "38"
+  },
+  {
+    "studentRegNo": "S/19/967",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "39"
+  },
+  {
+    "studentRegNo": "S/19/927",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "40"
+  },
+  {
+    "studentRegNo": "S/17/SP/080",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "41"
+  },
+  {
+    "studentRegNo": "S/17/173",
+    "session": "A",
+    "queueName": "Q1",
+    "type": "P",
+    "stallName": "MAS2",
+    "position": "42"
+  }
+]

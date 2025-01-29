@@ -1,0 +1,1 @@
+This folder contains the components that can be shared by ui across the project.

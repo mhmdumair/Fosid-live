@@ -1,0 +1,69 @@
+{
+    "__collections__": {
+        "users": {
+            "9D79ZDrVWIMl9bOTaw5FZXFRsXo2": {
+                "uid": "9D79ZDrVWIMl9bOTaw5FZXFRsXo2",
+                "createdAt": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1720840290,
+                        "_nanoseconds": 983000000
+                    }
+                },
+                "role": "admin",
+                "name": "Shehan Dewranga",
+                "email": "minisahan@gmail.com",
+                "updatedAt": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1720840290,
+                        "_nanoseconds": 944000000
+                    }
+                },
+                "__collections__": {}
+            },
+            "avjjog31fBbpnXS43pvTrXBKdZY2": {
+                "uid": "avjjog31fBbpnXS43pvTrXBKdZY2",
+                "createdAt": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1720632363,
+                        "_nanoseconds": 141000000
+                    }
+                },
+                "name": "Susara Weerarathna",
+                "email": "s19540@sci.pdn.ac.lk",
+                "updatedAt": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1720632363,
+                        "_nanoseconds": 644000000
+                    }
+                },
+                "role": "student",
+                "__collections__": {}
+            },
+            "bhdpKz1a9dZQv6uH9PbtPiG5mng1": {
+                "uid": "bhdpKz1a9dZQv6uH9PbtPiG5mng1",
+                "createdAt": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1720632292,
+                        "_nanoseconds": 602000000
+                    }
+                },
+                "name": "design Mo",
+                "email": "producemo@gmail.com",
+                "updatedAt": {
+                    "__datatype__": "timestamp",
+                    "value": {
+                        "_seconds": 1720632292,
+                        "_nanoseconds": 167000000
+                    }
+                },
+                "role": "admin",
+                "__collections__": {}
+            }
+        }
+    }
+}

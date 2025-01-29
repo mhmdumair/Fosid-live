@@ -1,0 +1,149 @@
+[debug] [2024-08-06T14:29:42.307Z] ----------------------------------------------------------------------
+[debug] [2024-08-06T14:29:42.309Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\skods\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --import ./firebase
+[debug] [2024-08-06T14:29:42.309Z] CLI Version:   13.13.0
+[debug] [2024-08-06T14:29:42.309Z] Platform:      win32
+[debug] [2024-08-06T14:29:42.309Z] Node Version:  v20.10.0
+[debug] [2024-08-06T14:29:42.309Z] Time:          Tue Aug 06 2024 19:59:42 GMT+0530 (India Standard Time)
+[debug] [2024-08-06T14:29:42.310Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-06T14:29:42.312Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-08-06T14:29:42.395Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-06T14:29:42.395Z] > authorizing via signed-in user (vqueue.mgt@gmail.com)
+[debug] [2024-08-06T14:29:42.599Z] java version "17.0.9" 2023-10-17 LTS
+Java(TM) SE Runtime Environment (build 17.0.9+11-LTS-201)
+
+[debug] [2024-08-06T14:29:42.599Z] Java HotSpot(TM) 64-Bit Server VM (build 17.0.9+11-LTS-201, mixed mode, sharing)
+
+[debug] [2024-08-06T14:29:42.619Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: auth, functions, firestore, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, storage"}}
+[debug] [2024-08-06T14:29:42.629Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-08-06T14:29:42.630Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-08-06T14:29:42.630Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-08-06T14:29:42.630Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-08-06T14:29:42.630Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-08-06T14:29:42.630Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8082}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-08-06T14:29:42.633Z] [hub] writing locator at C:\Users\skods\AppData\Local\Temp\hub-vqueue-9bebe.json
+[warn] !  functions: The functions emulator is configured but there is no functions source directory. Have you run firebase init functions? {"metadata":{"emulator":{"name":"functions"},"message":"The functions emulator is configured but there is no functions source directory. Have you run \u001b[1mfirebase init functions\u001b[22m?"}}
+[info] i  firestore: Importing data from C:\Personal\webwoods\vqueue\industry-day-nextjs\firebase\firestore_export\firestore_export.overall_export_metadata {"metadata":{"emulator":{"name":"firestore"},"message":"Importing data from C:\\Personal\\webwoods\\vqueue\\industry-day-nextjs\\firebase\\firestore_export\\firestore_export.overall_export_metadata"}}
+[debug] [2024-08-06T14:29:42.644Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-08-06T14:29:42.645Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-08-06T14:29:42.645Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\skods\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.7.jar","--host","127.0.0.1","--port",8082,"--websocket_port",9150,"--project_id","vqueue-9bebe","--seed_from_export","C:\\Personal\\webwoods\\vqueue\\industry-day-nextjs\\firebase\\firestore_export\\firestore_export.overall_export_metadata","--rules","C:\\Personal\\webwoods\\vqueue\\industry-day-nextjs\\firestore.rules","--single_project_mode",true],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\skods\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.7.jar\",\"--host\",\"127.0.0.1\",\"--port\",8082,\"--websocket_port\",9150,\"--project_id\",\"vqueue-9bebe\",\"--seed_from_export\",\"C:\\\\Personal\\\\webwoods\\\\vqueue\\\\industry-day-nextjs\\\\firebase\\\\firestore_export\\\\firestore_export.overall_export_metadata\",\"--rules\",\"C:\\\\Personal\\\\webwoods\\\\vqueue\\\\industry-day-nextjs\\\\firestore.rules\",\"--single_project_mode\",true],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2024-08-06T14:29:42.967Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-08-06T14:29:42.967Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[info] i  auth: Importing config from C:\Personal\webwoods\vqueue\industry-day-nextjs\firebase\auth_export\config.json {"metadata":{"emulator":{"name":"auth"},"message":"Importing config from C:\\Personal\\webwoods\\vqueue\\industry-day-nextjs\\firebase\\auth_export\\config.json"}}
+[info] i  auth: Importing accounts from C:\Personal\webwoods\vqueue\industry-day-nextjs\firebase\auth_export\accounts.json {"metadata":{"emulator":{"name":"auth"},"message":"Importing accounts from C:\\Personal\\webwoods\\vqueue\\industry-day-nextjs\\firebase\\auth_export\\accounts.json"}}
+[debug] [2024-08-06T14:29:49.618Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-08-06T14:29:50.280Z] Temp file directory for storage emulator: C:\Users\skods\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\skods\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[debug] [2024-08-06T14:29:50.290Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-08-06T14:29:50.290Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-08-06T14:29:50.290Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\skods\\.cache\\firebase\\emulators\\ui-v1.12.1\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\skods\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.12.1\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-08-06T14:29:50.393Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-08-06T14:29:50.393Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬──────────────────────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port                        │ View in Emulator UI             │
+├────────────────┼──────────────────────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099                   │ http://127.0.0.1:4000/auth      │
+├────────────────┼──────────────────────────────────┼─────────────────────────────────┤
+│ Functions      │ Failed to initialize (see above) │                                 │
+├────────────────┼──────────────────────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8082                   │ http://127.0.0.1:4000/firestore │
+├────────────────┼──────────────────────────────────┼─────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199                   │ http://127.0.0.1:4000/storage   │
+└────────────────┴──────────────────────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-08-06T21:56:46.428Z] ----------------------------------------------------------------------
+[debug] [2024-08-06T21:56:46.430Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\skods\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login:ci
+[debug] [2024-08-06T21:56:46.431Z] CLI Version:   13.13.0
+[debug] [2024-08-06T21:56:46.431Z] Platform:      win32
+[debug] [2024-08-06T21:56:46.431Z] Node Version:  v20.10.0
+[debug] [2024-08-06T21:56:46.431Z] Time:          Wed Aug 07 2024 03:26:46 GMT+0530 (India Standard Time)
+[debug] [2024-08-06T21:56:46.431Z] ----------------------------------------------------------------------
+[debug] 
+[warn] !  Authenticating with a `login:ci` token is deprecated and will be removed in a future major version of `firebase-tools`. Instead, use a service account key with `GOOGLE_APPLICATION_CREDENTIALS`: https://cloud.google.com/docs/authentication/getting-started 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=168556360&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-08-07T15:51:02.790Z] ----------------------------------------------------------------------
+[debug] [2024-08-07T15:51:02.793Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\skods\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --import ./firebase
+[debug] [2024-08-07T15:51:02.793Z] CLI Version:   13.13.0
+[debug] [2024-08-07T15:51:02.793Z] Platform:      win32
+[debug] [2024-08-07T15:51:02.793Z] Node Version:  v20.10.0
+[debug] [2024-08-07T15:51:02.794Z] Time:          Wed Aug 07 2024 21:21:02 GMT+0530 (India Standard Time)
+[debug] [2024-08-07T15:51:02.794Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-07T15:51:02.796Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-08-07T15:51:02.885Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-07T15:51:02.885Z] > authorizing via signed-in user (vqueue.mgt@gmail.com)
+[debug] [2024-08-07T15:51:02.954Z] java version "17.0.9" 2023-10-17 LTS
+Java(TM) SE Runtime Environment (build 17.0.9+11-LTS-201)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.9+11-LTS-201, mixed mode, sharing)
+
+[debug] [2024-08-07T15:51:02.971Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: auth, functions, firestore, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, storage"}}
+[debug] [2024-08-07T15:51:02.982Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-08-07T15:51:02.982Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-08-07T15:51:02.982Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-08-07T15:51:02.982Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-08-07T15:51:02.982Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-08-07T15:51:02.982Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8082}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-08-07T15:51:02.986Z] [hub] writing locator at C:\Users\skods\AppData\Local\Temp\hub-vqueue-9bebe.json
+[warn] !  functions: The functions emulator is configured but there is no functions source directory. Have you run firebase init functions? {"metadata":{"emulator":{"name":"functions"},"message":"The functions emulator is configured but there is no functions source directory. Have you run \u001b[1mfirebase init functions\u001b[22m?"}}
+[info] i  firestore: Importing data from C:\Personal\webwoods\vqueue\industry-day-nextjs\firebase\firestore_export\firestore_export.overall_export_metadata {"metadata":{"emulator":{"name":"firestore"},"message":"Importing data from C:\\Personal\\webwoods\\vqueue\\industry-day-nextjs\\firebase\\firestore_export\\firestore_export.overall_export_metadata"}}
+[debug] [2024-08-07T15:51:02.997Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-08-07T15:51:02.997Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-08-07T15:51:02.997Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\skods\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.7.jar","--host","127.0.0.1","--port",8082,"--websocket_port",9150,"--project_id","vqueue-9bebe","--seed_from_export","C:\\Personal\\webwoods\\vqueue\\industry-day-nextjs\\firebase\\firestore_export\\firestore_export.overall_export_metadata","--rules","C:\\Personal\\webwoods\\vqueue\\industry-day-nextjs\\firestore.rules","--single_project_mode",true],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\skods\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.7.jar\",\"--host\",\"127.0.0.1\",\"--port\",8082,\"--websocket_port\",9150,\"--project_id\",\"vqueue-9bebe\",\"--seed_from_export\",\"C:\\\\Personal\\\\webwoods\\\\vqueue\\\\industry-day-nextjs\\\\firebase\\\\firestore_export\\\\firestore_export.overall_export_metadata\",\"--rules\",\"C:\\\\Personal\\\\webwoods\\\\vqueue\\\\industry-day-nextjs\\\\firestore.rules\",\"--single_project_mode\",true],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2024-08-07T15:51:03.522Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-08-07T15:51:03.522Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[info] i  auth: Importing config from C:\Personal\webwoods\vqueue\industry-day-nextjs\firebase\auth_export\config.json {"metadata":{"emulator":{"name":"auth"},"message":"Importing config from C:\\Personal\\webwoods\\vqueue\\industry-day-nextjs\\firebase\\auth_export\\config.json"}}
+[info] i  auth: Importing accounts from C:\Personal\webwoods\vqueue\industry-day-nextjs\firebase\auth_export\accounts.json {"metadata":{"emulator":{"name":"auth"},"message":"Importing accounts from C:\\Personal\\webwoods\\vqueue\\industry-day-nextjs\\firebase\\auth_export\\accounts.json"}}
+[debug] [2024-08-07T15:51:09.370Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-08-07T15:51:10.103Z] Temp file directory for storage emulator: C:\Users\skods\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\skods\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[debug] [2024-08-07T15:51:10.110Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-08-07T15:51:10.110Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-08-07T15:51:10.110Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\skods\\.cache\\firebase\\emulators\\ui-v1.12.1\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\skods\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.12.1\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-08-07T15:51:10.249Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-08-07T15:51:10.249Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬──────────────────────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port                        │ View in Emulator UI             │
+├────────────────┼──────────────────────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099                   │ http://127.0.0.1:4000/auth      │
+├────────────────┼──────────────────────────────────┼─────────────────────────────────┤
+│ Functions      │ Failed to initialize (see above) │                                 │
+├────────────────┼──────────────────────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8082                   │ http://127.0.0.1:4000/firestore │
+├────────────────┼──────────────────────────────────┼─────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199                   │ http://127.0.0.1:4000/storage   │
+└────────────────┴──────────────────────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

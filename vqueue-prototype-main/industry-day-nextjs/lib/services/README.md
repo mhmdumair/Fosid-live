@@ -1,0 +1,1 @@
+Services like DB, Auth, Cloud Functions, RBAC and other services must be defined inside this folder.

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "KL1",
+    "companyName": "Kelun Life Sciences (Pvt) Ltd",
+    "roomName": "Chemistry Auditorium (first floor)",
+    "queueCount": "1"
+  },
+  {
+    "name": "CG1",
+    "companyName": "Celogen Lanka (Pvt) Ltd",
+    "roomName": "Chemistry Auditorium (first floor)",
+    "queueCount": "1"
+  },
+  {
+    "name": "SA1",
+    "companyName": "Sands Active (Pvt) Ltd",
+    "roomName": "MBB New building (first floor)",
+    "queueCount": "1"
+  },
+  {
+    "name": "BRX1",
+    "companyName": "Brandix Lanka (Pvt) Ltd",
+    "roomName": "Physics Seminar room (New building first floor)",
+    "queueCount": "3"
+  },
+  {
+    "name": "MAS1",
+    "companyName": "MAS Holdings (Pvt) Ltd",
+    "roomName": "Physics smart room 1 (New building first floor)",
+    "queueCount": "1"
+  },
+  {
+    "name": "MAS2",
+    "companyName": "MAS Holdings (Pvt) Ltd",
+    "roomName": "Physics smart room 2 (New building first floor)",
+    "queueCount": "1"
+  },
+  {
+    "name": "CGN1",
+    "companyName": "CodeGen International (Pvt) Ltd",
+    "roomName": "Mathematics M5 (Ground floor)",
+    "queueCount": "3"
+  },
+  {
+    "name": "HCB1",
+    "companyName": "Hemas Consumer Brands (Pvt) Ltd",
+    "roomName": "PGIS new building block c 2.6",
+    "queueCount": "2"
+  },
+  {
+    "name": "OC1",
+    "companyName": "Octave (Pvt) Ltd",
+    "roomName": "PGIS new building block c 2.5",
+    "queueCount": "2"
+  },
+  {
+    "name": "EJ1",
+    "companyName": "Emjay International (Pvt) Ltd",
+    "roomName": "MBB New building (ground floor)",
+    "queueCount": "1"
+  },
+  {
+    "name": "LK1",
+    "companyName": "Lankem (Pvt) Ltd",
+    "roomName": "PGIS new building block c 2.4",
+    "queueCount": "2"
+  },
+  {
+    "name": "HAY1",
+    "companyName": "HayCarb PLC",
+    "roomName": "SEU 209 (SEU first floor)",
+    "queueCount": "1"
+  },
+  {
+    "name": "NS1",
+    "companyName": "North Sails (Pvt) Ltd",
+    "roomName": "Chemistry New Auditorium (3rd floor)",
+    "queueCount": "2"
+  },
+  {
+    "name": "SL1",
+    "companyName": "S-Lon Lanka (Pvt) Ltd",
+    "roomName": "SEU 208 (SEU first floor)",
+    "queueCount": "2"
+  },
+  {
+    "name": "TW1",
+    "companyName": "MAS Twinery (MAS Innovation (Pvt) Ltd)",
+    "roomName": "SEU 301 (SEU second floor)",
+    "queueCount": "2"
+  },
+  {
+    "name": "MT1",
+    "companyName": "My Turn Internship Platform - Website Registration",
+    "roomName": "Mathematics Computer Unit",
+    "queueCount": "1"
+  }
+]

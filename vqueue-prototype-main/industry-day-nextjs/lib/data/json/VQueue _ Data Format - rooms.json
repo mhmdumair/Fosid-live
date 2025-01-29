@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Chemistry Auditorium (first floor)",
+    "department": "Chemistry"
+  },
+  {
+    "name": "MBB New building (first floor)",
+    "department": "Physics"
+  },
+  {
+    "name": "Physics Seminar room (New building first floor)",
+    "department": "Physics"
+  },
+  {
+    "name": "Physics smart room 1 (New building first floor)",
+    "department": "Molecular Biology & Biotechnology"
+  },
+  {
+    "name": "Physics smart room 2 (New building first floor)",
+    "department": "Physics"
+  },
+  {
+    "name": "Mathematics M5 (Ground floor)",
+    "department": "Mathematics"
+  },
+  {
+    "name": "PGIS new building block c 2.5",
+    "department": "PGIS"
+  },
+  {
+    "name": "PGIS new building block c 2.4",
+    "department": "PGIS"
+  },
+  {
+    "name": "PGIS new building block c 2.6",
+    "department": "PGIS"
+  },
+  {
+    "name": "MBB New building (ground floor)",
+    "department": "Molecular Biology & Biotechnology"
+  },
+  {
+    "name": "SEU 209 (SEU first floor)",
+    "department": "Science Education Unit"
+  },
+  {
+    "name": "Chemistry New Auditorium (3rd floor)",
+    "department": "Chemistry"
+  },
+  {
+    "name": "SEU 301 (SEU second floor)",
+    "department": "Science Education Unit"
+  },
+  {
+    "name": "SEU 208 (SEU first floor)",
+    "department": "Science Education Unit"
+  },
+  {
+    "name": "Mathematics Computer Unit",
+    "department": "Mathematics"
+  }
+]

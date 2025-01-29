@@ -1,0 +1,176 @@
+@startuml "VQueue"
+left to right direction
+
+interface IUser {
+    -id: ID
+    -role: Role
+    -name: String
+    -email: String
+    -username: String
+    -password: String
+    -phone1: String
+    -phone2: String
+    -createdAt: DateTime
+    -updatedAt: DateTime
+    -deletedAt: DateTime?
+}
+
+interface IRole {
+    -id: ID
+    -name: String
+    -createdAt: DateTime
+    -updatedAt: DateTime
+    -deletedAt: DateTime?
+}
+
+interface IRoom {
+    -id: ID
+    -stalls: [IStall]
+    -name: String
+    -roomAdmin: RoomAdmin
+    -createdAt: DateTime
+    -updatedAt: DateTime
+    -deletedAt: DateTime?
+}
+
+interface IStall {
+    -id: ID
+    -name: String
+    -room: IRoom
+    -queues: [IQueue]
+    -company: Company
+    -stallStatus: StallStatus
+    -createdAt: DateTime
+    -updatedAt: DateTime
+    -deletedAt: DateTime?
+}
+
+interface IQueue {
+    -id: ID
+    -interviews: [IInterviews]
+    -status: QueueStatus
+    -createdAt: DateTime
+    -updatedAt: DateTime
+    -deletedAt: DateTime?
+}
+
+interface IInterview {
+    -id: ID
+    -student: Student
+    -queue: IQueue
+    -date: Date
+    -startTime: Time
+    -endTime: Time
+    -status: InterviewStatus
+    -interviewType: InterviewType
+    -remark: String?
+    -createdAt: DateTime
+    -updatedAt: DateTime
+    -deletedAt: DateTime?
+}
+
+class Student implements IUser {
+    -userId: ID
+    -regNo: String
+    -group: StudentGroup
+    -level: StudentLevel
+}
+
+class Company implements IUser {
+    -userId: ID
+    -stalls: [IStall]
+    -status
+    -room: Room
+}
+
+class RoomAdmin implements IUser {
+    -userId: ID
+}
+
+class Admin implements IUser {
+    -userId: ID
+}
+
+IUser "0..N" -- "1" IRole
+IRoom "1" *-- "1..N" IStall : hosts
+IQueue "1" o-- "0..N" IInterview : schedules
+Student "1" *-- "1" IInterview : attends
+IStall "1" o-- "0..N" IQueue : belongs_to
+RoomAdmin "1" -- "1" IRoom: watches
+Company "1" *-- "1..N" IStall : operates
+
+enum QueueStatus {
+    EMPTY
+    OVERLOADED
+    AVAILABLE
+}
+
+enum InterviewType {
+    PRE_LIST
+    WALK_IN
+}
+
+enum StallStatus {
+    OPEN
+    TEMP_CLOSED
+    CLOSED
+}
+
+enum StudentLevel {
+    300L
+    400L
+}
+
+enum StudentGroup {
+    GN
+    ZL
+    BT
+    CH
+    MT
+    BMS
+    ST
+    GL
+    CS
+    DS
+    ML
+    BL
+    MB
+    CM
+    AS
+    ES
+    SOR
+}
+
+@enduml
+
+
+' General- GN
+' Zoology- ZL
+' Botany- BT
+' Physics- PH
+' Chemistry- CH
+' Mathematics- MT
+' Biomedical Science- BMS
+' Statistics- ST
+' Geology- GL
+' Computer Science- CS
+' Data Science- DS
+' Microbiology- ML
+' Biology- BL
+' Molecular Biology and Biotechnology- MB
+' Computation and Management- CM
+' Applied Science- AS
+' Environmental Science- ES
+' Statistics and Operational Research- SOR
+
+Departments
+
+' Zoology- ZL
+' Botany- BT
+' Physics- PH
+' Chemistry- CH
+' Mathematics- MT
+' Molecular Biology & Biotechnology- BMS
+' Geology- GL
+' Computer Science & Statistics- CSST
+' Environmental & Industrial Sciences- ES

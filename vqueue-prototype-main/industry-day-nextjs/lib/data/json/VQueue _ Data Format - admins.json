@@ -1,0 +1,65 @@
+[
+  {
+    "role": "admin",
+    "name": "Sahan Kodituwakku",
+    "email": "sahan.crkodituwakku@gmail.com",
+    "phone1": "070-3413298",
+    "phone2": ""
+  },
+  {
+    "role": "admin",
+    "name": "VQueue Mgt",
+    "email": "vqueue.mgt@gmail.com",
+    "phone1": "070-3413298",
+    "phone2": ""
+  },
+  {
+    "role": "admin",
+    "name": "superadmin",
+    "email": "superadmin@vqueue.com",
+    "phone1": "070-3413298",
+    "phone2": ""
+  },
+  {
+    "role": "admin",
+    "name": "Anuka Hettiarachchi",
+    "email": "s20381@sci.pdn.ac.lk",
+    "phone1": "071-7720214",
+    "phone2": ""
+  },
+  {
+    "role": "admin",
+    "name": "Sachith Rajapakse",
+    "email": "s19953@sci.pdn.ac.lk",
+    "phone1": "071-8879480",
+    "phone2": ""
+  },
+  {
+    "role": "admin",
+    "name": "Mohommadhu Umair",
+    "email": "s20534@sci.pdn.ac.lk",
+    "phone1": "077-4947906",
+    "phone2": ""
+  },
+  {
+    "role": "admin",
+    "name": "Udara Peiris",
+    "email": "s18579@sci.pdn.ac.lk",
+    "phone1": "077-1260427",
+    "phone2": ""
+  },
+  {
+    "role": "admin",
+    "name": "Vimansha Madushani",
+    "email": "s19819@sci.pdn.ac.lk",
+    "phone1": "071-2304489",
+    "phone2": ""
+  },
+  {
+    "role": "admin",
+    "name": "Susara Withanage",
+    "email": "s19540@sci.pdn.ac.lk",
+    "phone1": "076-4858102",
+    "phone2": ""
+  }
+]

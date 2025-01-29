@@ -1,0 +1,4 @@
+*.vscode
+
+industry-day-nextjs/serviceAccountKey.json
+admin/appConfig.json

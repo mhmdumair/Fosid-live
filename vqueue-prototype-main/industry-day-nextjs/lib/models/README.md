@@ -1,0 +1,1 @@
+Refer to the UML diagram and create the interfaces, classes and enums.
